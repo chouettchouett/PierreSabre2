@@ -17,14 +17,9 @@ public class Humain {
 		return argent;
 	}
 	
-	public void parler(String texte) {
-		System.out.println(prendreParole() + "« " + texte + "»");
+	protected void parler(String texte) {
+		System.out.println("(" + nom + ") - " + texte);
 	}
-	
-	private String prendreParole() {
-		String texte = " L'humain " + nom + " : ";
-		return texte;
-		}
 	
 	public void direBonjour() {
 		parler("Bonjour ! Je m'appelle " + nom + " et j'aime boire du " + boisson);
