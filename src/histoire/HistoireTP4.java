@@ -23,5 +23,6 @@ public class HistoireTP4 {
 		marco.boire();
 		roro.direBonjour();
 		roro.donner(marco);
+		roro.provoquer(yak);
 	}
 }
