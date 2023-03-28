@@ -1,8 +1,8 @@
 package personnage;
 
-public class Commerçant extends Humain{
+public class Commercant extends Humain{
 
-	public Commerçant(String nom , int argent) {
+	public Commercant(String nom , int argent) {
 		super(nom, "thé", argent);
 		// TODO Auto-generated constructor stub
 	}
